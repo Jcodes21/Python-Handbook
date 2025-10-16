@@ -23,8 +23,11 @@ print(type(isBool))
 # Sequence Data types
 list = ["Apple", "Orange", "Cherry", 2, True]
 tuple = ("Apple", "Orange", "Cherry", 2, True)
+range = range(10)
+dictionary = { "Name" : "Mickey", "age" : "36"}
+set = {"Eistein","Newton", "Tesla"}
 
-print(list)
-print(tuple)
-
-
+print(type(list))
+print(type(tuple))
+print(type(range))
+print(type(set))
